@@ -1,0 +1,11 @@
+.ag-theme-alpine {
+  padding-top: 40px;
+  padding-left: 300px;
+}
+.ag-theme-alpine {
+  @include ag-theme-alpine(
+    (
+      odd-row-background-color: #d3d3d3
+    )
+  );
+}
